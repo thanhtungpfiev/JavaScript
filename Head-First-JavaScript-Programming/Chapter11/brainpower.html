@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Handler</title>
+        <script>
+            // function handler() {
+            //     alert(doneMessage);
+            // }
+            // function makeTimer(doneMessage, n) {
+            //     setTimeout(handler, n);
+            // }
+            // makeTimer("Cookies are done!", 1000);
+            function makeTimer(doneMessage, n) {
+                setTimeout(function () {
+                    alert(doneMessage);
+                }, n);
+            }
+            makeTimer("Cookies are done!", 1000);
+        </script>
+    </head>
+    <body></body>
+</html>

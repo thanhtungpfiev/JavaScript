@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Timer Interval</title>
+        <script>
+            var tick = true;
+            function ticker() {
+                if (tick) {
+                     console.log("Tick");
+                     tick = false;
+                } else {
+                    console.log("Tock");
+                    tick = true;
+                }
+            }
+            setInterval(ticker, 1000);
+        </script>
+    </head>
+</html>
